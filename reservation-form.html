@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel='stylesheet' href="formstyle.css" type='text/css' />
+    <meta charset="UTF-8">
+    <title>TEST FORM</title>
+</head>
+<body>
+  
+
+<form action="/Applications/XAMPP/xamppfiles/htdocs/test work/connect.php" method="post">
+   <h1> Make a Reservation</h1>
+    <!-- The first flex box -->
+    <div class="flexbox">
+       
+        <div class="item1">
+         <label > First Name</label><br>
+         <input type="text" id="fname" name="fname"  >
+         </div> <div class="item2">
+            <label > Last Name</label><br>
+         <input type="text" id="lname" name="lname" >
+     </div> </div> 
+     <!-- The second flex box -->
+     <div class="flexboxTwo">
+        <div class="item3">
+         <label > Email Adress</label><br>
+     <input type="email" id="mail" name="mail"  >
+        </div><div class="item4">
+         <label > Phone Number</label><br>
+     <input type="text" id="phone" name="phone"  required>
+     </div> </div>
+     <!-- The third flex box -->
+     <div class="flexboxThree">
+        <div class="item5">
+                <label for="time">Time</label><br>
+     <input type="time" id="time" name="time"  >
+        </div><div class="item6">
+         <label > Party Size</label><br>
+     <input type="number" id="party" name="party"  required>
+     </div> </div>
+     <!-- The large entry box -->
+
+    
+      <textarea id="other"  placeholder="Any other specifications"  name="other"></textarea>
+
+      <br>
+
+   <button style="background-color: #f6f2af;" input type="submit" > submit </button>
+</form>
+
+
+</body>
+</html>
