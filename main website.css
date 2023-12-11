@@ -1,0 +1,275 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+Background-color: fff;
+/* the div first is like the main ent of homepage. THIS HAS CHANGED*/ 
+}
+.first{
+  width: 100%;
+  height: 90vh;
+
+
+  Background-size: cover;
+  Background-position: center;
+  Margin: 0px;
+  Image-resolution: from-image 300dpi;
+  Font-family: baskerville;
+  Color: 000;
+  Text-align: center;
+
+
+  overflow: hidden;
+  position: relative;
+}
+
+
+
+
+.navbar{
+  width: 85%
+  margin: auto;
+  display: flex;
+  align-items: center;
+  background-color: #f6f2af;
+}
+ul{
+  flex: 1;
+  text-align: right;
+ 
+} 
+ul li{
+  display: inline-block;
+  List-style: none;
+  margin: 0 20px;
+}
+ul li a{
+  Text-decoration: none;
+  color: #000;
+  Text-transform: uppercase;
+}
+ul li a::after{
+  
+}
+.words{
+
+  width: 100%;
+
+  Font-family: baskerville;
+  Color: 000;
+  Text-align: center;
+  Margin-top: 105px;
+  Position: absolute;
+  overflow: hidden;
+
+}
+.videobg{
+position: absolute;
+top:50%;
+left: 50%;
+transform: translate(-50%,-50%);
+min-width: 100%;
+min-heigh: 90%;
+z-index:-1;
+
+
+
+}
+.first h1{
+  font-family: 'Spicy Rice', cursive;
+  font-size: 70px;
+  Margin-top: 16% ;
+  Color: #7b3933;
+
+}
+.words p{
+  Font-size: 25px;
+  Margin: 20px auto;
+  Color: black;
+  Font-weight: 100;
+  Line-height: 25px;
+}
+.Second {
+
+  Margin-right: 30px;
+  Margin-top: 40px; 
+  Float: left;
+ 
+}
+.second h1{
+ font-family: 'Elsie', cursive;
+ Font-size: 40px;
+ Color: #ee8484;
+ Margin : 10px;
+}
+.second button{
+ Width: 200px;
+  Padding: 15px 0;
+  Text-align: center;
+  Border-radius: 5px;
+  Background: white;
+  Font-weight: bold;
+ Border: 2px solid #4cb4f0;
+ Margin-top: 30px;
+ Align: center;
+ Color: #f6d4e3;
+
+}
+Button{
+  Width: 450px;
+  Padding: 15px 0;
+  Text-align: center;
+  Border-radius: 25px;
+  Background: #7f292c;
+  Font-weight: bold;
+ Border: 2px solid #ee8484;
+ Margin-top: 30px;
+ Align: center;
+ color:white;
+}
+button:hover{
+ background: white;
+ color: black;
+}
+.rand{
+  Margin-top: 100px;
+  
+}
+/* THE GRID IN THE FIRST COLOUR BLOCK*/
+
+.container{
+  Display:grid;
+  Grid-template-row: 800px 800px 900px ;
+  Grid-template-column: 80px 20px 80px 20px 80px 20px;
+}
+.one{
+ Grid-row: 1 /1;
+ Grid-column:2/2;
+ Width: 210px;
+Margin-right: 10px ;
+Margin-left:10px ;
+  Display:flex;
+  Align-items: center;
+  Justify-content: center;
+ Position:relative;
+  
+  
+}
+.two{
+ Grid-row: 1 /1;
+ Grid-column:3/3;
+ Width: 210px;
+Margin-right: 10px ;
+Margin-left:10px;
+  
+  
+}
+.three{
+ Grid-row: 1 /1;
+ Grid-column:5/5;
+ Width: 210px;
+Margin-right: 10px ;
+Margin-left:10px ;
+
+  
+}
+.four{
+ Grid-row: 3/3;
+ Grid-column:3/4;
+}
+.image{
+
+ Position:relative;
+ 
+  Border: 4px white;
+}
+.image_words{
+ Width:100%;
+  Height:100%;
+ 
+   Position: absolute;
+  Display: flex;
+  Align-items: center;
+  Justify-content: center;
+ Top:0;
+Margin-bottom: 50px;
+
+  
+  Opacity: 0;
+  Transition: 0.6s;
+Flex-direction: column;
+
+
+}
+.image_words:hover{
+  Opacity:1;
+  
+}
+.grid-container{
+Display: grid;
+Grid-template-columns: 700px 550px;
+Justify-content: center;
+
+}
+ tr:nth-child(even) {
+  background-color:#f2dcef;
+}
+  tr:hover {background-color: #c7edcf;}
+  table{
+    width: 100%;
+    border: 3px solid #d66fc2;
+  
+}
+.hr-lines{
+  position: relative;
+  max-width: 500px;
+  margin 100px auto;
+  text-align: left;
+  
+}
+.hr-lines:after{
+  position: absolute;
+  content: " ";
+  height: 9px;
+  width: 200px;
+  display: block;
+  background: black;
+  top: 50%;
+  right:0%;
+  
+  
+  
+}
+/* THE DIVIDING BLOCKS OF COLOUR*/
+.block_one{
+   Background-color:#f6f2af;
+   Width:100%;
+   Height: 60vh;
+
+}
+.white{
+   Background-colorwhite;
+   Width:100%;
+   Height: 5vh;
+}
+.block_one h1{
+  Text-align: center;
+ font-family: 'Croissant One', cursive;
+ Color: black;
+
+.block p{
+  Text-align: center;
+}
+.rand2{
+  Margin-top: 100px;
+  Float: right;
+  
+}
+.block_two{
+   Background-color:#f6f2af;
+   Width:100%;
+   Height: 30vh;
+
+}
+
