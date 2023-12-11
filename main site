@@ -1,0 +1,114 @@
+<HTML>
+<HEAD>
+ <link rel="stylesheet" href="magadi branch.css">
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Amita:wght@700&family=Croissant+One&family=Elsie:wght@900&family=Patua+One&family=Spicy+Rice&display=swap" rel="stylesheet">
+  </head>
+
+
+</div>
+ <div class="navbar">
+	
+	  <ul>
+	    <li><a href="indexnew.html"> Home </a></li>
+	    <li><a href="https://www.usiu.ac.ke/"> Associate </a></li>
+	    <li><a href="mailto: xx@gmail.com"> Email  </a></li>
+	   <li><a href="#"> Staff</a></li>
+
+
+	  </ul>
+    </div>
+
+
+ <div class="first">
+	  <h1 > Magadi Branch-<br>♥︎ Pompompurin Cafe♥︎</h1>
+	   <video class="videobg" autoplay muted loop >
+		  <source src="pom.mp4" type="video/mp4">
+	  </video>
+
+ 
+
+
+	
+
+</div>
+
+
+
+<!--FIRST BLOCKER SERVICES -->
+
+
+
+<div class="block_one">
+
+  <div class="title"><h1> Our Specialty Services <br> </h1></div>
+
+  <p>
+	<div class="container">
+          <div class="one">
+		 <div class="image">
+			<img src="img2.jpeg"250px" width= 250px">
+			<div class="image_words"><h1> Specialty Cakes</h1><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed magna lultrices sodales. Nunc non orci tincidunt nibh malesuada posuere. 			<br>Sed blandit mattis felis,</p>
+			</div>
+		</div>
+	</div>
+
+
+	  <div class="two"> <div class="image">
+			<img src="img1.jpeg" height="250px" width= 250px">
+			<div class="image_words"><h1> Macarons</h1><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed magna lultrices sodales. Nunc non orci tincidunt nibh malesuada posuere. 			<br>Sed blandit mattis felis,</p>
+			</div>
+		</div>
+</div>
+
+ <div class="three"> <div class="image">
+			<img src="img.jpeg" height="250px" width= 250px">
+			<div class="image_words"><h1> Specialty Drinks</h1><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed magna lultrices sodales. Nunc non orci tincidunt nibh malesuada posuere. 			<br>Sed blandit mattis felis,</p>
+			</div>
+		</div>
+	
+	  
+	</div>
+	
+
+</div>
+ 
+	<button style="margin-left: 450px;"> All Products</button></div>
+</div>
+</div>
+
+<!-- END OF FIRST BLOCKER -->
+
+<div class="white">
+
+<!--SECOND BLOCKER  -->
+
+<div class="white"></div>
+<div class="block">
+
+<div class="grid-container">
+
+  <div class="second">
+     <h1> Magadi Branch <br> is beloved for.... </h1>
+     <p>Lorem ipsum dolor sit amet, consectetur adipiscing<br> elit. Proin rutrum iaculis lorem, eget tincidunt lectus consequat a.<br> Nunc eget placerat massa. Proin semper vulputate consequat. Integer porttitor  augue nec pulvinar accumsan. Sed sodales lacus magna, non auctor mauris rhoncus quis. Curabitur commodo accumsan justo, blandit sollicitudin risus<br> hendrerit id. Ut faucibus turpis congue, iaculis velit ac, molestie tellus. Maecenas feugiat imperdiet ante eu faucibus. Ut at iaculis velit.
+s. 
+ <br><button> <a href="http://localhost/test%20work/form%20test.html">Make a reservation</a></button></p>
+  
+</div>
+
+<div class="rand">
+<img src="pomp.gif" margin="60px" height="300px" width="500px">
+</div>
+
+ 
+</div>
+ 
+</div>
+<!-- ENDING  -->
+<div class="white"></div>
+<div class="block_one"></div>
+
+
+
+</div></HTML>
