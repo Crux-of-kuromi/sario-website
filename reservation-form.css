@@ -1,0 +1,58 @@
+body{
+
+    background-color: white;
+}
+.flexbox{
+
+    display: flex;
+    margin-bottom: 15px;
+    
+}
+
+.flexboxTwo{
+
+    display: flex;
+    margin-bottom: 15px;
+    
+}
+.flexboxThree{
+
+    display: flex;
+    margin-bottom: 15px;
+   
+}
+input{
+
+    width:250px;
+    border-radius: 4px;
+    height: 25px;
+    margin-right: 70px;
+    
+    
+    
+
+}
+form{
+
+    margin-left: 400px;
+    margin-top: 100px;
+    width: 80%;
+    border: 3px;
+    padding: 0px;
+    height: 700px;
+  
+ 
+}
+textarea{
+    width:60%;
+    height: 80px;
+    border-radius: 5px;
+}
+
+button{
+   background-color:#f6f2af;
+   height: 30px;
+   width: 50%;
+   border-radius: 5px;
+   
+}
